@@ -1,59 +1,96 @@
-# Calendar
+# 📅 Angular Calendar App
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.15.
+A clean, modern, and responsive **calendar application** built using **Angular 19**, **SCSS**, and a **service-driven architecture**.  
+Includes **month navigation**, **current day highlighting**, **past/upcoming day styling**, and **outside-month day dimming** — all wrapped in a **beautiful, consistent UI**.
 
-## Development server
+---
 
-To start a local development server, run:
+## 🌐 Live Demo
+
+👉 [Click here to try the app](https://ahmad-889.github.io/calendar/)
+
+---
+
+## 🎯 What I Built
+
+This application is designed with **standalone components** for scalability and maintainability.  
+Here’s what’s inside:
+
+* ✅ `CalendarPageComponent`: Renders the full calendar view with navigation  
+* ✅ `DayCardComponent`: Displays individual day cards with styling for today, past, upcoming, and outside-month days  
+* ✅ `CalendarService`: Handles date calculations, month transitions, and helper functions  
+* ✅ Fully responsive layout with SCSS and custom themes
+
+---
+
+## 💡 Key Features
+
+* 📆 **Full month view** with Monday as the starting day  
+* ⏪ **Previous / Next month navigation** with smooth updates  
+* 📍 **Today highlighting** with special border and background  
+* 🕒 **Past day dimming** (non-clickable, grayed out)  
+* 🌟 **Upcoming days styling** with hover effects  
+* 🌓 **Days outside the current month dimmed** for clarity  
+* 📱 Fully responsive for desktop and mobile screens
+
+---
+
+## 🧱 Technologies Used
+
+* Angular 19 (Standalone Components)
+* TypeScript
+* SCSS (Custom, consistent styling + Responsive Design)
+* Date handling with native JavaScript Date API
+
+---
+
+## 📸 Screenshot
+
+![Calendar UI](public/Screenshot.png)
+
+---
+
+## 📁 Project Structure
+
+
+
+
+
+```
+src/
+└── app/
+├── components/
+│ ├── calendar-page/
+│ │ ├── calendar-page.component.ts   # Main calendar view
+│ │ ├── calendar-page.component.html # Calendar layout
+│ │ └── calendar-page.component.scss # Calendar styling
+│ └── day-card/
+│ ├── day-card.component.ts          # Individual day logic
+│ ├── day-card.component.html        # Day UI template
+│ └── day-card.component.scss        # Day styling
+├── services/
+│ └── calendar.service.ts            # Date calculations & helpers
+```
+
+## 🚀 Running the Project
+
+Install Angular CLI if you haven't:
 
 ```bash
+npm install -g @angular/cli
+```
+
+Install dependencies and serve:
+
+```bash
+npm install
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Visit `http://localhost:4200` to see the custom directives in action.
 
-## Code scaffolding
+---
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## 🔗 Author
+Made with ❤️ by
+Muhammad Ahmad

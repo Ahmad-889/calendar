@@ -1,0 +1,8 @@
+<div class="day-card" 
+     [class.today]="isToday" 
+     [class.past]="isPast" 
+     [class.upcoming]="isUpcoming"
+     [class.outside-month]="isOutsideMonth">
+  <div class="day-number">{{ day | date: "d" }}</div>
+  <div class="day-name">{{ day | date: "EEE" }}</div>
+</div>
