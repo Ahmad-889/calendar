@@ -50,8 +50,9 @@ Here’s what’s inside:
 
 ---
 
-## 📁 Project Structure
 
+
+## 📁 Project Structure
 
 ```
 src/
@@ -90,9 +91,6 @@ Visit `http://localhost:4200` to see the custom directives in action.
 ## 🔗 Author
 Made with ❤️ by
 Muhammad Ahmad
-
-
-
 
 
 
