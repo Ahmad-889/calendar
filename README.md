@@ -4,7 +4,6 @@ A clean, modern, and responsive **calendar application** built using **Angular 1
 Includes **month navigation**, **current day highlighting**, **past/upcoming day styling**, and **outside-month day dimming** — all wrapped in a **beautiful, consistent UI**.
 
 ---
-
 ## 🌐 Live Demo
 
 👉 [Click here to try the app](https://ahmad-889.github.io/calendar/)
@@ -12,6 +11,8 @@ Includes **month navigation**, **current day highlighting**, **past/upcoming day
 ---
 
 ## 🎯 What I Built
+
+
 
 This application is designed with **standalone components** for scalability and maintainability.  
 Here’s what’s inside:
@@ -42,6 +43,8 @@ Here’s what’s inside:
 * SCSS (Custom, consistent styling + Responsive Design)
 * Date handling with native JavaScript Date API
 
+
+
 ---
 
 ## 📸 Screenshot
@@ -49,8 +52,6 @@ Here’s what’s inside:
 ![Calendar UI](public/Screenshot.png)
 
 ---
-
-
 
 ## 📁 Project Structure
 
@@ -91,6 +92,3 @@ Visit `http://localhost:4200` to see the custom directives in action.
 ## 🔗 Author
 Made with ❤️ by
 Muhammad Ahmad
-
-
-
