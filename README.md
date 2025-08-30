@@ -1,5 +1,4 @@
 # 📅 Angular Calendar App
-
 A clean, modern, and responsive **calendar application** built using **Angular 19**, **SCSS**, and a **service-driven architecture**.  
 Includes **month navigation**, **current day highlighting**, **past/upcoming day styling**, and **outside-month day dimming** — all wrapped in a **beautiful, consistent UI**.
 
@@ -11,8 +10,6 @@ Includes **month navigation**, **current day highlighting**, **past/upcoming day
 ---
 
 ## 🎯 What I Built
-
-
 
 This application is designed with **standalone components** for scalability and maintainability.  
 Here’s what’s inside:
@@ -43,8 +40,6 @@ Here’s what’s inside:
 * SCSS (Custom, consistent styling + Responsive Design)
 * Date handling with native JavaScript Date API
 
-
-
 ---
 
 ## 📸 Screenshot
@@ -56,6 +51,7 @@ Here’s what’s inside:
 ## 📁 Project Structure
 
 ```
+
 src/
 └── app/
 ├── components/
@@ -92,3 +88,5 @@ Visit `http://localhost:4200` to see the custom directives in action.
 ## 🔗 Author
 Made with ❤️ by
 Muhammad Ahmad
+
+
