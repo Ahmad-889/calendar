@@ -22,6 +22,7 @@ Here’s what’s inside:
 
 ---
 
+
 ## 💡 Key Features
 
 * 📆 **Full month view** with Monday as the starting day  
@@ -52,6 +53,7 @@ Here’s what’s inside:
 ## 📁 Project Structure
 
 ```
+
 src/
 └── app/
 ├── components/
@@ -65,6 +67,7 @@ src/
 │ └── day-card.component.scss        # Day styling
 ├── services/
 │ └── calendar.service.ts            # Date calculations & helpers
+
 
 ```
 ## 🚀 Running the Project
@@ -85,7 +88,7 @@ ng serve
 Visit `http://localhost:4200` to see the custom directives in action.
 
 ---
-
 ## 🔗 Author
 Made with ❤️ by
 Muhammad Ahmad
+
